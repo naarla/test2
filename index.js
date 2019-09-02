@@ -10,10 +10,9 @@ client.connect(config.DB, { useNewUrlParser: true }, (err, db) => {
     if(err) {
         console.log('database is not connected')
     }
-    else  { 
+    else {
         console.log('connected!!')
     }
-
 });
 
 app.get('/', (req, res) => {
